@@ -1,0 +1,24 @@
+Description:
+You are given two n x n binary matrices mat and target. Your task is to determine whether it is possible to make mat equal to target by rotating mat in 90-degree increments (clockwise). You can rotate mat by 90, 180, or 270 degrees, or leave it unchanged.
+
+
+
+Input Parameters:
+
+mat (List[List[int]]): A n x n binary matrix.
+
+target (List[List[int]]): A n x n binary matrix.
+
+Output:
+
+bool: Return True if mat can be made equal to target by rotating it, otherwise return False.
+
+
+
+Example:
+
+Input: mat = [[0, 0, 0], [0, 1, 0], [1, 1, 1]], target = [[1, 1, 1], [0, 1, 0], [0, 0, 0]]
+Output: True
+ 
+Input: mat = [[0, 1], [1, 1]], target = [[1, 0], [0, 1]]
+Output: False
