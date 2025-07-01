@@ -1,0 +1,26 @@
+Description:
+You are given an m x n matrix. Write a function that returns all the elements of the matrix in spiral order, starting from the top-left corner, moving right across the top row, then down the last column, then left across the bottom row, and then up the first column, repeating this process until all the elements have been visited.
+
+
+
+Input Parameters:
+
+matrix (List[List[int]]): A 2D list representing the matrix of size m x n.
+
+Output:
+
+List[int]: A list of integers representing the elements of the matrix in spiral order.
+
+
+
+Example:
+
+Input: matrix = [[1, 2, 3, 4],
+                 [5, 6, 7, 8],
+                 [9, 10, 11, 12]]
+Output: [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
+ 
+Input: matrix = [[1, 2, 3], 
+                 [4, 5, 6], 
+                 [7, 8, 9]]
+Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
